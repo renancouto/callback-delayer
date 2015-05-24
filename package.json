@@ -1,0 +1,27 @@
+{
+  "name": "callback-delayer",
+  "version": "0.0.0",
+  "description": "Just a callback delayer",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "lint": "eslint *.js"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "keywords": [
+    "callback",
+    "delayer"
+  ],
+  "author": "Renan Couto",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "babel-eslint": "^3.1.8",
+    "eslint": "^0.21.2",
+    "mocha": "^2.2.5",
+    "pre-commit": "^1.0.7"
+  }
+}
