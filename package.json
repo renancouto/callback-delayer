@@ -17,6 +17,10 @@
   ],
   "author": "Renan Couto",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:renancouto/callback-delayer.git"
+  },
   "devDependencies": {
     "babel": "^5.4.7",
     "babel-eslint": "^3.1.8",

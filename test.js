@@ -1,4 +1,3 @@
-/*eslint-disable no-unused-vars*/
 /*globals describe, it*/
 'use strict'
 
@@ -18,12 +17,12 @@ describe('Callback Delayer Tests', () => {
     assert.throws(() => { return new CallbackDelayer(200) }, Error)
   })
 
-  it('should check if params are the correct type', () => {
+  it('should check if params are in the correct type', () => {
     assert.throws(() => { return new CallbackDelayer('foo', 'bar') }, Error)
   })
 
   it('should fire the callback', (done) => {
-    var cb = new CallbackDelayer(50, () => {
+    return new CallbackDelayer(50, () => {
       done()
     })
   })
