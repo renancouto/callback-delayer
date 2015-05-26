@@ -1,0 +1,7 @@
+deploy:
+  provider: npm
+  email: renancouto@gmail.com
+  api_key:
+    secure: hw45OILC6zK3OKoTuWMbo85JydCd1UTE4bDNGoL07QwXAtlkB1UpHt8GoFfeSP6ITE+9gb1ZB/NcaegDPIPXFLDAiyiY7rkaaVFZFJB+4cdrmIDEFtgYjFNGBL3KNhAsyhHyWpjLge1NkzQIKeBpx5O0HtENBJr1aTiD9aFfvk4ips9cVIwjVdRB8sr1TlTnr8+dkClURRee7/sQaaX2rqt+OOscbsYfNrg11okq/amTied7Gh8e2I8nnirM14x4z5vhaQ/fvaoIijJAFALpYlld0EEEiLQTd1glxi4wJU7E2KxqCs/48H5qBO1XKs7qzsZN05419piR/rleSf/bEPQkOzXZVB451Y4ul0cNcW+kgGIvVUtldDYhbRznlqLwPS0axgMX8Sjy4G+SPI0cACVfTAeqzZrjT1Oe/VydAdEsGbPKTb+qhxv7/ouJcbW2vcDgwPjtGUwtqlJdU/x3MT823NeTpG+qiT1X8MAjITbLtIscVbScHa+vpeI3LbmL85RxYxQX/8GscvhDO6XI/JtHPzU0EnzuEx8NZQbdnOW/lMcJz/cEgKQeJGu+tU2NBVBHEC5ByCfhasY+o3Zqp6ZVWr3Wwbxc7ZNl2RgP8pIqf6Me9uV31dUVklr6Sj7b9+VVCKB4CKqRkQp1fhoysw5Ibnpttr4GmySqJonqpqw=
+  on:
+    tags: true
