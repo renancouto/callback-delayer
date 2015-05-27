@@ -1,13 +1,14 @@
 language: node_js
 node_js:
-  - "node"
-  - "0.12"
-  - "0.11"
-  - "0.10"
+- node
+- '0.12'
+- '0.11'
+- '0.10'
 deploy:
   provider: npm
   email: renancouto@gmail.com
   api_key:
-    secure: hw45OILC6zK3OKoTuWMbo85JydCd1UTE4bDNGoL07QwXAtlkB1UpHt8GoFfeSP6ITE+9gb1ZB/NcaegDPIPXFLDAiyiY7rkaaVFZFJB+4cdrmIDEFtgYjFNGBL3KNhAsyhHyWpjLge1NkzQIKeBpx5O0HtENBJr1aTiD9aFfvk4ips9cVIwjVdRB8sr1TlTnr8+dkClURRee7/sQaaX2rqt+OOscbsYfNrg11okq/amTied7Gh8e2I8nnirM14x4z5vhaQ/fvaoIijJAFALpYlld0EEEiLQTd1glxi4wJU7E2KxqCs/48H5qBO1XKs7qzsZN05419piR/rleSf/bEPQkOzXZVB451Y4ul0cNcW+kgGIvVUtldDYhbRznlqLwPS0axgMX8Sjy4G+SPI0cACVfTAeqzZrjT1Oe/VydAdEsGbPKTb+qhxv7/ouJcbW2vcDgwPjtGUwtqlJdU/x3MT823NeTpG+qiT1X8MAjITbLtIscVbScHa+vpeI3LbmL85RxYxQX/8GscvhDO6XI/JtHPzU0EnzuEx8NZQbdnOW/lMcJz/cEgKQeJGu+tU2NBVBHEC5ByCfhasY+o3Zqp6ZVWr3Wwbxc7ZNl2RgP8pIqf6Me9uV31dUVklr6Sj7b9+VVCKB4CKqRkQp1fhoysw5Ibnpttr4GmySqJonqpqw=
+    secure: jsH8DaQSE68MVblM0AtnV4kVb6op599zdEhrcx+noNX7vTcudWbVIMTpNwC/l5pOAVuoIup3eSIjLVNueVACBFvBrvlhiFUOygTbE5sy1c4rkaJ7CXSkGzncGF+T0k+vAjoqd/BSjrHc5/iAmJo2XWf7r08+yoVXx3PG/HEzqA7YjSg5gKgZTodb7U6oPEwlxMo21jO39dTMUZ6EF0EC4hNiGDsoq/5yX6L8BarWbjqvOeRSjN1Ayb296CJq6Ix+k4tiCd5yV0bjGFCEn85ayecI3vBjUoc1QXWRxeDHVKNhADhhHADn6vY0YgTQfW3j5PLBAzbiVFV5xzZWZv28ak7Eu+stZ+dZf311W7xfwWQiZ3uOxpxLVbd6Hcy4HM01FvevVGiCyvutHAQEnl6u44BSJmB8kTPi3dChIRPS6iHmEew2Erxyg6rvp0yvqaAgSDfFuIBq8Wi4wo9+Pn6+rF4p2vFLZ5pzpYoxh5n3Tkm/yzytSN8K6t6zkuiU/0OPTXvzQBjpNNYJWugTA17u8kyUB2SDDIHOEGy9I5tmv6I8z9EzOE1Iw4CDq3++9oHNjHBVzQgeIv5G/fC4roQ1Sp9j/D3NyMxqQOrBjow32YIi4vY8Ioi9CUFV0h88mUNJUFpnWLxH2Q40IskV5K1ONydI+CJY/ECUf/PrIOuQbjk=
   on:
     tags: true
+    repo: renancouto/callback-delayer
