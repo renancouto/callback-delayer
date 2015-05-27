@@ -1,6 +1,6 @@
 {
   "name": "callback-delayer",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Just a callback delayer",
   "main": "index.js",
   "scripts": {

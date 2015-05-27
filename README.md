@@ -10,6 +10,11 @@ When you have something animating in your UI you expect it to do something or to
 
 To solve this you can use `CallbackDelayer` and make sure that your callback will only execute after an specific amount of time. So your UI will behave like you expect.
 
+## Installing
+```bash
+npm install --save callback-delayer
+```
+
 ## Usage
 ```js
 new CallbackDelayer(delay, callback, wait)
@@ -38,9 +43,7 @@ setTimeout(function () { cb.isCompleted() }, 250)
 Renan Couto
 
 ## TODO
-- [ ] publish on NPM
 - [ ] publish on Bower
-- [ ] add to Travis
 - [ ] support UMD
 - [ ] support Browsers
 
